@@ -49,6 +49,7 @@
           @mouseenter="buttonHovered = true"
           @mouseleave="buttonHovered = false"
           :class="{ 'hovered':buttonHovered }"
+          @click="$router.push('/login')"
              
         >
           LOGIN
@@ -79,6 +80,16 @@
 
 <script>
 
+export default {
+  data() {
+    return {
+      drawer: false, // Assuming 'drawer' is a boolean
+      buttonHovered: false, // Assuming 'buttonHovered' is a boolean
+      items: [], // Assuming 'items' is an array
+    };
+  },
+  // other options...
+}
 
 
 </script>
@@ -123,5 +134,3 @@
   background-size: cover; 
 }
 </style>
-
-

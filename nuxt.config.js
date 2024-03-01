@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   //...
   build: {
     transpile: ['vuetify'],
+    transpile: ['sass'], 
   },
   modules: [
     (_options, nuxt) => {

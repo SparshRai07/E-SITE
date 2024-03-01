@@ -1,8 +1,8 @@
 <template>
    <div>
       <!-- Product sections -->
-       
-       <h1>I AM HOME PAGE</h1>
+       <product-section />
+       <h1>I AM HOME</h1>
       <!-- Product Sections -->
 
 
